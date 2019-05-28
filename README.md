@@ -131,7 +131,7 @@ points - a **Title, Actor, Scenario**.
 
 #### Structure of a Use Case
 
-1. Title
+##### 1. Title
 
 Title of a use case must be a **short phrase & active verb**
 
@@ -143,7 +143,7 @@ _For eg:_
 - **Collect** late payments
 - **Process** accounts
 
-2. Actor
+##### 2. Actor
 
 Actors are external entities that use our application to achieve certain
 goals. It is important to remember that actors are external to the
@@ -156,38 +156,39 @@ application. It could be :
 -   external systems such as data sources, web services, other apps,
     backup systems, some machines and so on.
 
-To reduce complexity of use cases you can replace a complex scenario
-with an actor.
+To reduce complexity of use cases you can replace a complex scenario with an actor.
 
-A primary actor is one who
-requests/initiates action, and all others are <span
-class="underline">secondary actors.
+A primary actor is one who requests/initiates action, and all others are secondary actors.
 
-#### Scenario
+##### 3. Scenario
 
--   A **scenario is an actor's
-    goal*** that is achieved from our application in a single
+-   A **scenario is an actor's goal** that is achieved from our application in a single
     encounter. 
--   Sometimes, a use case would include multiple scenarios like the
-    *Purchase items* scenario below. 
+-   Sometimes, a use case would include multiple scenarios.
+-   It has to be written in an active voice.
 -   To get a hint on what can be considered a scenario, take for example
-    the title "log into application". This can't be a meaningful
+    the title "Sign into application". This can't be a meaningful
     scenario because, the goal of user is not specified here. Why do you
     log into the application is not clear. Hence, this is just a part of
     the scenario, but not a scenario in itself.
+    
+Example for a use case:
 
-<img src="attachments/924476033/934135393.png" width="193"/><br/>
+```
+Title: Purchase items
+Actor: Customer
+Scenario: 
+1. Customer chooses to enter the checkout process
+2. Customer is shown confirmation page for their order, allowing to change quantities
+3. Customer inputs shipping address
+4. Customer selects payment method
+5. System validates payment details
+6. System creates order number that can be used for tracking
+7. System displays confirmation message
+8. System sents an email confirmation to the customer
+```
 
-Examples of scenario:
-
-**<img src="attachments/924476033/924483210.png" width="187"/><br/>**
-
-**<img src="attachments/924476033/924483212.png" width="250"/><br/>**
-
-**<img src="attachments/924476033/924483238.png" width="250"/><br/>  
-**
-
-### Diagramming use cases
+#### Diagramming use cases
 
 -   A use case diagram fits several use cases in a single diagram,
     because with use case diagramming we are trying to visualize all the
@@ -204,7 +205,7 @@ Examples of scenario:
         not human, you could put them in a box with *angle quotes* to
         denote it as an actor. for eg: *Analytics System* in the diagram
 
-<img src="attachments/924476033/934135539.png" width="250"/><br/>
+<img src="attachments/924476033/934135539.png" width="550"/><br/>
 
 ## User Story
 
