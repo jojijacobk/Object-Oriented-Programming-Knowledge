@@ -6,20 +6,22 @@ A class has 3 things :
 -   **Attributes**: what identities would represent this class ?. *For eg:* name, color, size, length, FileType etc
 -   **Behavior**: what can it do ?. *For eg:* save(), store(), deposit(), withdraw() etc
 
+While modelling an application, if the thing under discussion is a **noun** then it could be an object. _For eg:_ a place, a person, a thing etc. And, a **verb** could be the behavior of an object. _For eg:_ explosion, saving, storing, digestion, run etc
+
 # Fundamental features of a class
 
 There are four fundamental features for a class which is acronymned as **A PIE**
-   - Abstraction
-   - Polymorphism
-   - Inheritance
-   - Encapsulation
+   1. Abstraction
+   2. Encapsulation
+   3. Inheritance
+   4. Polymorphism
    
-## Abstraction
+## 1. Abstraction
 
 During **abstraction** you would identify **what attributes and behaviors** needs to be
 inside a class. You should just **focus on the essentials**, ignoring irrelevant details. Thus, abstraction is about **modeling the formation of a class**.
 
-## Encapsulation
+## 2. Encapsulation
 
 Encapsulation is about **information hiding**. It is the **hiding of both attributes and
 behaviors** of a class from the reach of external world. Early
@@ -44,7 +46,7 @@ In other words encapsulation is synonymous to the term **black boxing**. In a bl
 particular input/output sockets placed outside the box. You don't have
 any clue on the intrinsic working of this black box.
 
-## Inheritance
+## 3. Inheritance
 
 Imagine you have abstracted a *Person* class for your program (during analysis, design or coding phase) as below :
 
@@ -92,7 +94,7 @@ inheritance to do the work for an other similar classes such as _Customer_, _Emp
 The **main advantage of inheritance** is not just that we could reuse codes as much as possible, but it
 gives way to **polymorphism**.
 
-## Polymorphism
+## 4. Polymorphism
 
 It is the ability to perform the right behavior for the circumstances. 
 
@@ -104,149 +106,44 @@ For example, take the behavior of mathematical operator `+`. It performs the ri
 This is an example for built-in polymorphism in most OOP languages. Similarly, we can make our own polymorphism
 into action.
 
-## Identification of a class
-
-How to identify <span class="underline">**classes**</span>/**<span
-class="underline">objects</span>** in OOA phase ?
-
--   <span class="underline">**noun:**</span> If the thing under
-    discussion is a **noun **then it could be an object. **For
-    eg: **a place, a person, a thing etc
-    -   In simpler terms if you can put **'the'** before anything, then
-        it could be an object. **For eg: **the apple, the bridge, the
-        time, the date etc.
--   <span class="underline">**verb:**</span> A verb could be a behavior
-    of an object. **For eg: **an explosion, saving, storing, digestion,
-    run etc
-
-# Defining Requirements
-
-Technically in the requirements analysis stage we are not doing anything
-object oriented, but we certainly describe the requirements either
-formally or informally so that the next phase becomes easier, which is
-OOA. While gathering requirements you have to consider <span
-class="underline">**functional**</span> and <span
-class="underline">**non-functional**</span> requirements.
-
-## Functional requirements
-
-![](images/icons/grey_arrow_down.png){.expand-control-image}What are
-functional requirements ?
-
-In this stage you describe what the <span
-class="underline">**application "must" do**</span>. It captures the
-**Features** / **Capabilities** of the application.These requirements
-are written in **"must" **have phrases like :
-
-<img src="attachments/924476033/924483138.png" width="468"/><br/>
-
-<img src="attachments/924476033/924483139.png" width="374"/><br/>
-
-<img src="attachments/924476033/924483140.png" width="389"/><br/>
-
-<img src="attachments/924476033/924483141.png" width="424"/><br/>
-
-<img src="attachments/924476033/924483142.png" width="407"/><br/>
-
-Example of a complex functional requirement :
-
-<img src="attachments/924476033/924483143.png" width="503"/><br/>
-
-## Non-Functional requirements
-
-![](images/icons/grey_arrow_down.png){.expand-control-image}What are
-non-functional requirements ?
-
-The non-functional requirements are not capabilities or features, but
-they are some rules or notion supposed to be followed.
-
-Some common non-functional requirements are :
-
--   **Help -** Documentation or help needed for reference by the
-    application users.
--   **Legal - **Does this application pass the legal requirements
-    (medical regulations of such apps, privacy constraints of social
-    networking apps etc)
--   **Performance - **How many users should the backend application
-    support simultaneously
--   **Support - **If there comes an issue in the morning 2 AM, who will
-    be there to do the support on application. (Customer care ?, GNC,
-    TMM etc)
--   **Security - **It can be a feature or non-functional requirement
-    depending on the application type. 
-
-Some examples of non-functional requirements look like :
-
-<img src="attachments/924476033/924483134.png" width="390"/><br/>
-
-FURPS or FURPS+ is like a common checklist to look into while defining
-requirements. It reminds us whether we have defined functional
-requirements, have we thought in usability perspective, did we thought
-about performance concerns etc.
-
-<img src="attachments/924476033/924483135.png" width="438"/><br/>
-
-FURPS+ suggests that whether you have covered the :
-
--   **Functional requirements - **Features of the application are mapped
-    ?
--   **Usability **requirements** - **Documentation, guide, tutorials etc
-    are prepared ?
--   **Reliability **requirements** - **Have you laid out the Disaster
-    Recovery, Failover plans ?
--   **Performance **requirements** - **What is the scalability
-    requirement of application. How many simultaneous users are expected
-    to be supported ?
--   **Supportability **requirements** - **Who will maintain the
-    application ? Does it need internationalization ? etc
--   \+
-    -   **Design requirements - **The design constraints such as it
-        should be an iPhone app, hybrid app etc
-    -   **Implementation requirements -** What language or environment
-        in which the system is expected to run.
-    -   **Interface requirements -** Do we have to comply with the
-        external interface ? Or should it be REST based etc. 
-    -   **Physical requirements -** Should this app be running on a
-        phone with camera etc
+# Different stages of Object Oriented Software Development
+## 1. Define Requirements
 
 At the end of requirements analysis phase, you would have a
 documentation describing the functional and non-functional requirements
-of the application as defined above. This will be the input for next
-stage in software development, which is analysis - <span
-class="underline">OOA</span>.
+of the application. 
 
-# Object Oriented Analysis
+**Functional requirements** describe what the **application "must" do**. It captures the **Features** / **Capabilities** of the application. **Non-Functional requirements** are not capabilities or features, but they are some rules or notions which are supposed to be followed such as performance, security etc.
 
-So far we have documented the requirements in terms of what the <span
-class="underline">**application "must" do**</span>. Now, its time for
-figuring out <span class="underline">**how a user would achieve that
-goal by using our application**</span>**.** There are two common
-procedures used in OOA phase - <span class="underline">**use
-cases**</span> & <span class="underline">**user stories**</span>. Both
-of them are certain descriptions written in plain non technical words
-about how would you use the application to perform something. It can be
-represented completely in written textual form. And, you may use
-diagrams if you think diagrams could support in understanding the system
-better. You can use either *use case* or *user story* or both depending
-on whether you follow agile scrum or rational unified method or so on
 
-## Use Case
+## 2. Object Oriented Analysis
 
-For writing a use case, there are very well established templates in pdf
-or word format. You just need to fill in the templates. But, it could be
+So far we have documented the requirements in terms of what the **application "must" do**. Now, its time to
+figure out **how a user would interact with our application**. There are two common
+procedures used in OOA phase - **use cases** & **user stories**.
+
+### Use Case
+
+For writing a use case, there are very well established templates. You just need to fill in the templates. But, it could be
 an overkill sometimes as such a formal format covers a hell lot of
 details. So typically a Use Case needs bare minimum of 3 essential
-points - **<span class="underline">Title</span>, <span
-class="underline">Actor</span> & <span
-class="underline">Scenario</span>.**
+points - a **Title, Actor, Scenario**.
 
-### Structure of a Use Case
+#### Structure of a Use Case
 
-#### Title
+1. Title
 
-**<img src="attachments/924476033/924483209.png" width="250"/><br/>**
+Title of a use case must be a **short phrase & active verb**
 
-#### Actor
+_For eg:_
+- **Register** new member
+- **Transfer** funds
+- **Purchase** items
+- **Create** new page
+- **Collect** late payments
+- **Process** accounts
+
+2. Actor
 
 Actors are external entities that use our application to achieve certain
 goals. It is important to remember that actors are external to the
@@ -260,16 +157,16 @@ application. It could be :
     backup systems, some machines and so on.
 
 To reduce complexity of use cases you can replace a complex scenario
-with an <span class="underline">actor</span>.
+with an actor.
 
-A <span class="underline">primary actor</span> is one who
+A primary actor is one who
 requests/initiates action, and all others are <span
-class="underline">secondary actors</span>.
+class="underline">secondary actors.
 
 #### Scenario
 
--   A <span class="underline">**scenario is an actor's
-    goal**</span> that is achieved from our application in a single
+-   A **scenario is an actor's
+    goal*** that is achieved from our application in a single
     encounter. 
 -   Sometimes, a use case would include multiple scenarios like the
     *Purchase items* scenario below. 
@@ -343,9 +240,9 @@ Compare use case vs user story :
 Conceptual modeling is object oriented construction of a model of the
 software. It involves the following steps:
 
-1.  Collect together all the **<span class="underline">user
-    stories</span>** and **<span class="underline">use
-    cases</span>** defined so far, and scan the written descriptions to
+1.  Collect together all the **user
+    stories** and **use
+    cases** defined so far, and scan the written descriptions to
     identify **nouns** and make a list of nouns.
 2.  Nouns are potential objects. **Filter the list** of nouns by
     eliminating duplicates and irrelevant ones.
@@ -353,8 +250,8 @@ software. It involves the following steps:
 4.  **Connect** related boxes. **Tag** the relationship. Specify the
     **multiplicity** if needed.
 5.  **Identify responsibilities** of different objects by **marking
-    verbs** from the <span class="underline">**user stories**</span> and
-    <span class="underline">**use cases**</span>. This helps to
+    verbs** from the **user stories** and
+    **use cases**. This helps to
     distribute responsibilities between different objects rather than
     accumulating a lot of responsibilities unnecessarily towards *actor*
     objects like *customer*.
@@ -414,8 +311,8 @@ relates each other and organize CRC cards accordingly.
 
 ## Class Diagrams
 
-After having created the <span class="underline">conceptual model</span>
-or the <span class="underline">CRC cards</span>, you can start
+After having created the conceptual model
+or the CRC cards, you can start
 diagramming classes. The class diagram doesn't need to depict every
 possible *attributes* and *behaviors. *Instead, you need to show only
 the relevant details. It represents ***Visibility** (- private* and *+
@@ -429,9 +326,8 @@ return data), **Static** (*underlined *attributes* and *behaviors),*
 
 ### Inheritance
 
-Inheritance is easily identifiable by the **"**<span
-class="underline">**IS A**</span>**"** relationship. Once you have
-charted the <span class="underline">conceptual model,</span> it would
+Inheritance is easily identifiable by the **IS A** relationship. Once you have
+charted the conceptual model, it would
 speak for itself there appears "IS A" relationship between certain
 classes. They fall under the inheritance relationship. The inheritance
 relationship can be called by different terms : 
@@ -484,8 +380,8 @@ There are cases when you don't want to instantiate a class (for eg:
 *BankAccount*) simply because there doesn't exist a plain *BankAccount*.
 It makes sense to exist only the right form of *BankAccount* such as
 *CheckingAccount, SavingsAccount, InvestmentAccount* etc. As in the
-above example *BankAccount *can be an <span class="underline">abstract
-class</span> which cannot be instantiated but hold the attributes and
+above example *BankAccount *can be an abstract
+class which cannot be instantiated but hold the attributes and
 function definitions - usable only when they gets inherited.
 
 ### Interface
@@ -509,9 +405,9 @@ you should implement every class with the *Printable* interface, where
 ### Association
 
 Association is a generic term indicating that an object is <span
-class="underline">related with</span> another object (aggregation,
-composition etc). **<span class="underline">Aggregation</span>** &
-**<span class="underline">Composition</span>** are two types of
+class="underline">related with another object (aggregation,
+composition etc). **Aggregation** &
+**Composition** are two types of
 associations in OOP. 
 
 Aggregation is similar to Composition as both indicates a "HAS A"
