@@ -107,6 +107,7 @@ This is an example for built-in polymorphism in most OOP languages. Similarly, w
 into action.
 
 # Different stages of Object Oriented Software Development
+
 ## 1. Define Requirements
 
 At the end of requirements analysis phase, you would have a
@@ -122,7 +123,7 @@ So far we have documented the requirements in terms of what the **application "
 figure out **how a user would interact with our application**. There are two common
 procedures used in OOA phase - **use cases** & **user stories**.
 
-### Use Case
+### A. Use Case
 
 For writing a use case, there are very well established templates. You just need to fill in the templates. But, it could be
 an overkill sometimes as such a formal format covers a hell lot of
@@ -207,36 +208,36 @@ Scenario:
 
 <img src="attachments/924476033/934135539.png" width="550"/><br/>
 
-## User Story
+### B. User Story
 
-A *user story* is similar to *use case *but written in a very simply
+A *user story* is similar to *use case* but written in a very simple
 sentence. Like use case there is a particular format for user story.
 User stories are most convenient in agile or extreme programming, where
 one or more user stories needs to be finished within a sprint.
 
 Template :
 
-<img src="attachments/924476033/932798694.png" width="160"/><br/>
-
-  
+```
+As a {type of user}
+I want {goal}
+so that {reason}
+```
 
 Examples :
 
-<img src="attachments/924476033/932798701.png" width="104"/><br/>
+```
+As a Reader
+I want to change the font and color scheme
+so that I can read in different lighting conditions
+```
 
-<img src="attachments/924476033/932798702.png" width="103"/><br/>
+```
+As a Bank Customer
+I want to change my PIN online
+so that I don't need to visit bank branch
+``` 
 
-<img src="attachments/924476033/932798709.png" width="104"/><br/>
-
-<img src="attachments/924476033/932798711.png" width="117"/><br/>
-
-  
-
-Compare use case vs user story :
-
-<img src="attachments/924476033/932798749.png" width="201"/><br/>
-
-## Conceptual Modeling
+## 3. Conceptual Modeling
 
 Conceptual modeling is object oriented construction of a model of the
 software. It involves the following steps:
@@ -269,44 +270,16 @@ software. It involves the following steps:
             implemented in the *Order* object as "Display totals" as it
             serves the goal.
 
-  
-
-<img src="attachments/924476033/932801977.png" width="150"/><br/>
-
-<img src="attachments/924476033/932801979.png" width="150"/><br/>
-
-<img src="attachments/924476033/932801980.png" width="150"/><br/>
-
-<img src="attachments/924476033/932801981.png" width="251"/><br/>
-
-<img src="attachments/924476033/932801982.png" width="251"/><br/>
-
-<img src="attachments/924476033/932801983.png" width="250"/><br/>
-
-<img src="attachments/924476033/932801984.png" width="250"/><br/>
-
-<img src="attachments/924476033/932801986.png" width="250"/><br/>
-
-## CRC Cards
-
-CRC (Class - Responsibility - Collaborators) is an alternate way for
-modeling objects.
-
-Each card indicates an object, with class name on top, responsibilities
-marked on left and collaborator objects in the right.
-
-        Format of a CRC card looks like :
-
-<img src="attachments/924476033/936301528.png" width="380"/><br/>
-
-Each CRC card represents a class like the following :
-
-<img src="attachments/924476033/936301456.png" width="1028"/><br/>
-
-Once all the CRC cards are laid out. It helps you to see which classes
-relates each other and organize CRC cards accordingly.
-
-<img src="attachments/924476033/936301460.png" width="1067"/><br/>
+|An example for conceptual modelling stages|  
+|------------------------------------------|
+|<img src="attachments/924476033/932801977.png" width="500"/>|
+|<img src="attachments/924476033/932801979.png" width="300"/>|
+|<img src="attachments/924476033/932801980.png" width="300"/>|
+|<img src="attachments/924476033/932801981.png" width="451"/>|
+|<img src="attachments/924476033/932801982.png" width="451"/>|
+|<img src="attachments/924476033/932801983.png" width="500"/>|
+|<img src="attachments/924476033/932801984.png" width="500"/>|
+|<img src="attachments/924476033/932801986.png" width="450"/>|
 
 # Object Oriented Design
 
