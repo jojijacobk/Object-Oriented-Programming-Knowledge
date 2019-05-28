@@ -1,118 +1,107 @@
-# Object Orientation \[ Lynda \]
-# How to design a **<span class="underline">class</span>** ?
-
-## Structure of a class
+# Structure of a class
 
 A class has 3 things :
 
--   <span class="underline">**name**</span> : it is the name of the
-    class. **For eg: **BankAccount, File, Document etc
--   **<span class="underline">attributes</span>**: it is about what
-    identities would represent this class ? **For eg:** name, color,
-    size, length, FileType etc
--   **<span class="underline">behavior</span>: **it is about what can
-    this class perform ? **For eg: **save(), store(), deposit(),
-    withdraw() etc
+-   **Name** of the class. *For eg:* BankAccount, File, Document etc.
+-   **Attributes**: what identities would represent this class ?. *For eg:* name, color, size, length, FileType etc
+-   **Behavior**: what can it do ?. *For eg:* save(), store(), deposit(), withdraw() etc
 
-<img src="attachments/924476033/924476612.png" width="250"/><br/>
+# Fundamental features of a class
 
-## Fundamental features of a class
+There are four fundamental features for a class which is acronymned as **A PIE**
+   - Abstraction
+   - Polymorphism
+   - Inheritance
+   - Encapsulation
+   
+## Abstraction
 
-There are **<span class="underline">four</span>** fundamental features
-for a class which is acronymned as **<span class="underline">A
-PIE</span>**
+During **abstraction** you would identify **what attributes and behaviors** needs to be
+inside a class. You should just **focus on the essentials**, ignoring irrelevant details. Thus, abstraction is about **modeling the formation of a class**.
 
-<img src="attachments/924476033/924476607.png" width="362"/><br/>
+## Encapsulation
 
-### Abstraction
-
-<img src="attachments/924476033/924476918.png" width="257"/><br/>
-
-In this stage of **abstraction** you would identify **<span
-class="underline">what attributes and behaviors</span>** needs to be
-inside a class.
-
-Thus, abstraction is about modeling the formation of a class.
-
-### Encapsulation
-
-In this stage you would be doing <span class="underline">**information
-hiding**</span>.
-
-Encapsulation is <span class="underline">**hiding of both attributes and
-behaviors**</span> of a class from the reach of external world. Early
+Encapsulation is about **information hiding**. It is the **hiding of both attributes and
+behaviors** of a class from the reach of external world. Early
 days I misunderstood this concept as a way of keeping secret. Actually,
-the concept of encapsulation is to avoid the external dependencies as
-much as possible, and thereby make a class easy to refactor (evolve). 
+the concept of encapsulation is just to **avoid the external dependencies as
+much as possible**, and thereby make a class easy to refactor and evolve.
 
 For example,
 
-<img src="attachments/924476033/924477038.png" width="183"/><br/>
-
-In this *BankAccount* class, imagine you had made the *balance*
-attribute public. It leads to other parts of program referring to the
+Consider a *BankAccount* class, and imagine that you had an attribute *balance*
+made as public. It leads to other parts of program referring to the
 *balance* attribute directly without invoking *deposit()* or
-*withdraw()* behaviors. It make the implementation very much tightly
-coupled. So you don't have a control over how the balance is updated.
-Other parts of program can simply directly access the *balance* and
+*withdraw()* behaviors. Thus, other parts of the program can simply directly access the *balance* attribute and
 tweak it. Even if you change the logic of *withdrawal* from one way to
-other, nobody cares as *balance* is directly accessible to the world. 
+other, nobody cares as *balance* is directly accessible to the world. It make the implementation very much tightly
+coupled, and you don't have a control over how the balance is updated.
 
-Most important rule of encapsulation is to <span
-class="underline">**hide everything in a class except those which needs
-to be explicitly directly accessed by world**</span>.
+Most important rule of encapsulation is to **hide everything in a class except those which needs
+to be explicitly directly accessed by world**
 
-In other words encapsulation is synonymous to <span
-class="underline">**black**</span> **<span
-class="underline">boxing</span>,** where you would see only the
+In other words encapsulation is synonymous to the term **black boxing**. In a black box you could only see the
 particular input/output sockets placed outside the box. You don't have
 any clue on the intrinsic working of this black box.
 
-<img src="attachments/924476033/924477233.png" width="206"/><br/>
+## Inheritance
 
-### Inheritance
+Imagine you have abstracted a *Person* class for your program (during analysis, design or coding phase) as below :
 
-Imagine you have abstracted a *Person *class for your program (during
-any of analysis or design or coding phase) as below :
-
-<img src="attachments/924476033/924477607.png" width="140"/><br/>
+```php
+class Person {
+    name
+    age
+    address
+}
+```
 
 Then came a requirement to have a *Customer* class for your program
-which would like :
+which would be like :
 
-<img src="attachments/924476033/924477634.png" width="304"/><br/>
+```php
+class Customer {
+    name
+    age
+    address
+    customerNumber
+}
+```
 
 You figured that almost every attributes & behaviors of *Person* class
 is duplicated in *Customer* class except for the *customerNumber*
 attribute. Hence, you decided to base the *Customer* class upon the
-*Person* class, which is called <span
-class="underline">**inheritance**</span>.
+*Person* class, which is called **inheritance**.
 
-<img src="attachments/924476033/924477675.png" width="293"/><br/>
+```php
+class Customer extends Person {
+    /*
+    These attributes are inherited from Person class
+      name
+      age
+      address
+    */
+    
+    customerNumber
+}
+```
 
-As you have already abstracted the <span class="underline">**essential
-commonalities**</span>** **into *Person* class, it is useful to setup
-inheritance for an other similar class name *Employee* from *Person,* as
-follows *:*
+Thus you have abstracted the **essential commonalities** of a person into *Person* class, and let 
+inheritance to do the work for an other similar classes such as _Customer_, _Employee_ etc
 
-*<img src="attachments/924476033/924477697.png" width="443"/><br/>*
+The **main advantage of inheritance** is not just that we could reuse codes as much as possible, but it
+gives way to **polymorphism**.
 
-The <span class="underline">**main advantage of inheritance**</span> is
-not just that we could reuse codes as much as possible, but **<span
-class="underline">polymorphism</span>**
-
-### Polymorphism
+## Polymorphism
 
 It is the ability to perform the right behavior for the circumstances. 
 
-For example, take the behavior of **operator + :**
+For example, take the behavior of mathematical operator `+`. It performs the right behavior on different circumstances such as a string concatenation and mathematical addition.
 
 -   "hello" + "world" = "helloworld"
 -   5 + 10 = 15
 
-Mostly every programming languages are provided with this support of
-concatenation which works based on the circumstances. This is the built
-in polymorphism in OOP languages. Also, we can make our own polymorphism
+This is an example for built-in polymorphism in most OOP languages. Similarly, we can make our own polymorphism
 into action.
 
 ## Identification of a class
