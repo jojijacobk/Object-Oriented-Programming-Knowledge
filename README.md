@@ -278,7 +278,7 @@ software. It involves the following steps:
 |<img src="attachments/924476033/932801981.png" width="451"/>|
 |<img src="attachments/924476033/932801982.png" width="451"/>|
 |<img src="attachments/924476033/932801983.png" width="500"/>|
-|<img src="attachments/924476033/932801984.png" width="500"/>|
+|<img src="attachments/924476033/932801984.png" width="550"/>|
 |<img src="attachments/924476033/932801986.png" width="450"/>|
 
 # Object Oriented Design
