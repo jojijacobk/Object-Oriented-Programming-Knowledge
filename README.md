@@ -12,9 +12,10 @@ the relevant details. It represents :
 - **Static** (_attributes and behaviors_)
 - **Constructor**
 
-*<img src="attachments/924476033/932803673.jpg" width="411"/><br/>*
+|**Class Diagram with Visibility**  <br/><br/> <img src="attachments/924476033/932803673.jpg" width="411"/>|
+|-----------------------------|
+|**Class Diagram with Static Members** <br/><br/>  <img src="attachments/924476033/932803674.jpg" width="411"/>|
 
-**<img src="attachments/924476033/932803674.jpg" width="288"/><br/>**
 
 ### Inheritance
 
