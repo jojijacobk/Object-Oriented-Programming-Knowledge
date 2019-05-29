@@ -270,16 +270,16 @@ software. It involves the following steps:
             implemented in the *Order* object as "Display totals" as it
             serves the goal.
 
-|An example for conceptual modelling stages|  
+|**An example for conceptual modelling stages**|  
 |------------------------------------------|
-|<img src="attachments/924476033/932801977.png" width="500"/>|
-|<img src="attachments/924476033/932801979.png" width="300"/>|
-|<img src="attachments/924476033/932801980.png" width="300"/>|
-|<img src="attachments/924476033/932801981.png" width="451"/>|
-|<img src="attachments/924476033/932801982.png" width="451"/>|
-|<img src="attachments/924476033/932801983.png" width="500"/>|
-|<img src="attachments/924476033/932801984.png" width="550"/>|
-|<img src="attachments/924476033/932801986.png" width="450"/>|
+|Step 1. Scan user stories and use cases to identify nouns <br/> <img src="attachments/924476033/932801977.png" width="500"/>|
+|Step 2. Make a list of nouns <br/> <img src="attachments/924476033/932801979.png" width="300"/>|
+|Step 3. Filter the list of nouns by eliminating duplicates & irrelevant ones. <br/> <img src="attachments/924476033/932801980.png" width="300"/>|
+|Step 4. Box the nouns <br/> <img src="attachments/924476033/932801981.png" width="451"/>|
+|Step 5. Connect related boxes. <br/> <img src="attachments/924476033/932801982.png" width="451"/>|
+|Step 6. Scan user stories and use cases to identify verbs <br/> <img src="attachments/924476033/932801983.png" width="500"/>|
+|Step 7. Map verbs against corresponding box. <br/> <img src="attachments/924476033/932801984.png" width="550"/>|
+|Now you have an object model. <br/> <img src="attachments/924476033/932801986.png" width="450"/>|
 
 # Object Oriented Design
 
