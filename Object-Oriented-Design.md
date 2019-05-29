@@ -32,8 +32,8 @@ relationship can be called by different terms : 
 |Illustration of Inheritance through **IS A** relationship|
 |----------------------------------------------------------|
 |The natural language has the best representation of "IS A" relationship as seen below. <br/> <img src="attachments/924476033/932803909.png" width="409"/>|
-|Inspect the classes identified during OOA phase to figure out the inheritance relationship among them. Here, _Checking Account_ **is a** _Bank Account_. <br/> <img src="attachments/924476033/932803911.png" width="550"/>|
-|_Savings Account_ **is a** _Bank Account_.  <br/> <img src="attachments/924476033/932803912.png" width="500"/>|
+|Inspect the classes identified during OOA phase to figure out the inheritance relationship among them. Here, _Checking Account_ **is a** _Bank Account_. <br/> <img src="attachments/924476033/932803911.png" width="400"/>|
+|_Savings Account_ **is a** _Bank Account_.  <br/> <img src="attachments/924476033/932803912.png" width="400"/>|
 |Inheritance is represented using an arrow with wedge. <br/> <img src="attachments/924476033/932803913.png" width="500"/>|
 |You can write specific *attributes* and *behaviors* into the *sub-classes* or *override* existing ones. <br/> <img src="attachments/924476033/932803916.png" width="550"/>|
 
@@ -97,12 +97,3 @@ necessity of drawing UML also premises on the need. They are required
 only If some of them are essential to understand the application.
 
 <img src="attachments/924476033/936286165.png" width="322"/><br/>
-
-## Design Patterns
-
-When you have clarity on the classes needed for the application, and the
-sequence of operations between objects. It is time to refine the current
-design of application based on the already well known designs patterns
-of software development. There are **23 design patterns** so far.
-
-<img src="attachments/924476033/936286205.png" width="580"/><br/>
