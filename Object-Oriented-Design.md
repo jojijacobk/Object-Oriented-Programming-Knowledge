@@ -97,12 +97,3 @@ necessity of drawing UML also premises on the need. They are required
 only If some of them are essential to understand the application.
 
 <img src="attachments/924476033/936286165.png" width="322"/><br/>
-
-## Design Patterns
-
-When you have clarity on the classes needed for the application, and the
-sequence of operations between objects. It is time to refine the current
-design of application based on the already well known designs patterns
-of software development. There are **23 design patterns** so far.
-
-<img src="attachments/924476033/936286205.png" width="580"/><br/>
