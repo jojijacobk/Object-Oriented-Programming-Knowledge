@@ -1,3 +1,12 @@
+  * [Object Oriented Design](Object-Oriented-Design.md#object-oriented-design)
+      * [Class Diagrams](Object-Oriented-Design.md#class-diagrams)
+         * [Specifics of a Class Diagram](Object-Oriented-Design.md#specifics-of-a-class-diagram)
+            * [Inheritance](Object-Oriented-Design.md#inheritance)
+            * [Abstract Class](Object-Oriented-Design.md#abstract-class)
+            * [Interface](Object-Oriented-Design.md#interface)
+            * [Association](Object-Oriented-Design.md#association)
+      * [UML Diagrams](Object-Oriented-Design.md#uml-diagrams)
+      
 # Object Oriented Design
 
 ## Class Diagrams
