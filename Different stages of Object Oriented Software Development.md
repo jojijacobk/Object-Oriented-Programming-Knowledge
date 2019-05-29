@@ -171,4 +171,4 @@ software. It involves the following steps:
 |**Step 5. Connect related boxes** <br/><br/> <img src="attachments/924476033/932801982.png" width="451"/>|
 |**Step 6. Scan user stories and use cases to identify verbs** <br/><br/> <img src="attachments/924476033/932801983.png" width="500"/>|
 |**Step 7. Make a list of verbs** <br/><br/> <img src="attachments/924476033/932801984.png" width="650"/>|
-|**Mark verbs against corresponding nouns. Then you have a _Conceptual Object Model_** <br/><br/> <img src="attachments/924476033/932801986.png" width="450"/>|
+|**Step 8. Mark verbs against corresponding nouns. Then you have a _Conceptual Object Model_** <br/><br/> <img src="attachments/924476033/932801986.png" width="450"/>|
