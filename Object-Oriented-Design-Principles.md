@@ -47,13 +47,13 @@ formatting, graphs, error handling etc.
 <tbody>
 <tr class="odd">
 <td><div class="content-wrapper">
-<p><img src="attachments/924476033/936286532.png" width="362" height="250" /></p>
+<p><img src="attachments/924476033/936286532.png" width="362"/></p>
 </div></td>
 <td><div class="content-wrapper">
-<p><img src="attachments/924476033/936286536.png" width="528" height="250" /></p>
+<p><img src="attachments/924476033/936286536.png" width="528"/></p>
 </div></td>
 <td><div class="content-wrapper">
-<p><img src="attachments/924476033/936286537.png" width="517" height="250" /></p>
+<p><img src="attachments/924476033/936286537.png" width="517"/></p>
 </div></td>
 </tr>
 </tbody>
