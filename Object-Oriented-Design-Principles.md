@@ -1,12 +1,12 @@
 # Object Oriented Design Principles
 
-## General Design Principles
+## A. General Design Principles
 
-### DRY
+### 1. DRY
 
 Don't Repeat Yourself.
 
-### YAGNI 
+### 2. YAGNI 
 
 You Ain't Gonna Need It.
 
@@ -14,7 +14,7 @@ Eg: If your software need to create a database abstraction, you don't
 need to consider every database providers other than what is currently
 in use.
 
-### KISS 
+### 3. KISS 
 
 Keep It Simple, Stupid
 
@@ -29,7 +29,7 @@ formatting, graphs, error handling etc.
 
 <img src="attachments/924476033/936286495.png" width="400"/><br/>
 
-## SOLID
+## B. SOLID
 
 <img src="attachments/924476033/936286525.png" width="353"/><br/>
 
@@ -59,7 +59,7 @@ formatting, graphs, error handling etc.
 </tbody>
 </table>
 
-## GRASP
+## C. GRASP
 
  <img src="attachments/924476033/936287107.png" width="401"/><br/>
 
@@ -73,7 +73,6 @@ formatting, graphs, error handling etc.
 
 <img src="attachments/924476033/936287111.png" width="504"/><br/>
 
-  
 
 <img src="attachments/924476033/936287115.png" width="450"/><br/><img src="attachments/924476033/936287178.png" width="458"/><br/>
 
