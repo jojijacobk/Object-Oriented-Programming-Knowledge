@@ -31,34 +31,14 @@ formatting, graphs, error handling etc.
 
 ## B. SOLID
 
-<img src="attachments/924476033/936286525.png" width="353"/><br/>
-
-<img src="attachments/924476033/936286527.png" width="396"/><br/>
-
-<img src="attachments/924476033/936286528.png" width="453"/><br/>
-
-<img src="attachments/924476033/936286538.png" width="492"/><br/>
-
-<img src="attachments/924476033/936286530.png" width="358"/><br/>
-
-  
-
-<table>
-<tbody>
-<tr class="odd">
-<td><div class="content-wrapper">
-<p><img src="attachments/924476033/936286532.png" width="362"/></p>
-</div></td>
-<td><div class="content-wrapper">
-<p><img src="attachments/924476033/936286536.png" width="528"/></p>
-</div></td>
-<td><div class="content-wrapper">
-<p><img src="attachments/924476033/936286537.png" width="517"/></p>
-</div></td>
-</tr>
-</tbody>
-</table>
-
+| Solid principles of Object Oriented Design|
+|--------------------------------------------|
+|<img src="attachments/924476033/936286525.png" width="353"/>|
+|<img src="attachments/924476033/936286527.png" width="396"/>|
+|<img src="attachments/924476033/936286528.png" width="453"/>|
+|<img src="attachments/924476033/936286538.png" width="492"/>|
+|<img src="attachments/924476033/936286530.png" width="358"/>|
+|<img src="attachments/924476033/936286532.png" width="362"/> <br/> <img src="attachments/924476033/936286536.png" width="528"/> <br/>  <img src="attachments/924476033/936286537.png" width="517"/>|
 ## C. GRASP
 
  <img src="attachments/924476033/936287107.png" width="401"/><br/>
@@ -79,3 +59,12 @@ formatting, graphs, error handling etc.
 <img src="attachments/924476033/936287116.png" width="445"/><br/>
 
 <img src="attachments/924476033/936287117.png" width="420"/><br/>
+
+# Design Patterns
+
+When you have clarity on the classes needed for the application, and the
+sequence of operations between objects. It is time to refine the current
+design of application based on the already well known designs patterns
+of software development. There are **23 design patterns** so far.
+
+<img src="attachments/924476033/936286205.png" width="580"/><br/>
