@@ -29,13 +29,13 @@ relationship can be called by different terms : 
 - super class  → sub class
 - abstract class → concrete class
 
-|Illustration of Inheritance through **IS A** relationship|
+|Illustration of Inheritance through _"IS A"_ relationship|
 |----------------------------------------------------------|
-|The natural language has the best representation of "IS A" relationship as seen below. <br/> <img src="attachments/924476033/932803909.png" width="409"/>|
-|Inspect the classes identified during OOA phase to figure out the inheritance relationship among them. Here, _Checking Account_ **is a** _Bank Account_. <br/> <img src="attachments/924476033/932803911.png" width="550"/>|
-|_Savings Account_ **is a** _Bank Account_.  <br/> <img src="attachments/924476033/932803912.png" width="500"/>|
-|Inheritance is represented using an arrow with wedge. <br/> <img src="attachments/924476033/932803913.png" width="500"/>|
-|You can write specific *attributes* and *behaviors* into the *sub-classes* or *override* existing ones. <br/> <img src="attachments/924476033/932803916.png" width="550"/>|
+|The natural language has the best representation of "IS A" relationship as seen below. <br/><br/> <img src="attachments/924476033/932803909.png" width="409"/>|
+|Inspect the classes identified during OOA phase to figure out the inheritance relationship among them. Here, _Checking Account_ **is a** _Bank Account_. <br/><br/> <img src="attachments/924476033/932803911.png" width="450"/>|
+|_Savings Account_ **is a** _Bank Account_.  <br/><br/> <img src="attachments/924476033/932803912.png" width="450"/>|
+|Inheritance is represented using an arrow with wedge. <br/><br/> <img src="attachments/924476033/932803913.png" width="450"/>|
+|You can write specific *attributes* and *behaviors* into the *sub-classes* or *override* existing ones. <br/><br/> <img src="attachments/924476033/932803916.png" width="450"/>|
 
 ### Abstract Class
 
