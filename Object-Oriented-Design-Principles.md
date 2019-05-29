@@ -2,11 +2,11 @@
 
 ## A. General Design Principles
 
-### 1. DRY
+**DRY**
 
 Don't Repeat Yourself.
 
-### 2. YAGNI 
+**YAGNI**
 
 You Ain't Gonna Need It.
 
@@ -14,7 +14,7 @@ Eg: If your software need to create a database abstraction, you don't
 need to consider every database providers other than what is currently
 in use.
 
-### 3. KISS 
+**KISS**
 
 Keep It Simple, Stupid
 
