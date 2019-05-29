@@ -1,3 +1,9 @@
+   * [Object Oriented Design Principles](Object-Oriented-Design-Principles.md#object-oriented-design-principles)
+      * [A. General Design Principles](Object-Oriented-Design-Principles.md#a-general-design-principles)
+      * [B. SOLID](Object-Oriented-Design-Principles.md#b-solid)
+      * [C. GRASP](Object-Oriented-Design-Principles.md#c-grasp)
+   * [Design Patterns](Object-Oriented-Design-Principles.md#design-patterns)
+   
 # Object Oriented Design Principles
 
 ## A. General Design Principles
