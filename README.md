@@ -237,7 +237,7 @@ I want to change my PIN online
 so that I don't need to visit bank branch
 ``` 
 
-## 3. Conceptual Modeling
+## 3. Conceptual Object Modeling
 
 Conceptual modeling is object oriented construction of a model of the
 software. It involves the following steps:
@@ -270,16 +270,16 @@ software. It involves the following steps:
             implemented in the *Order* object as "Display totals" as it
             serves the goal.
 
-|**An example for conceptual modelling stages**|  
-|------------------------------------------|
-|Step 1. Scan user stories and use cases to identify nouns <br/> <img src="attachments/924476033/932801977.png" width="500"/>|
-|Step 2. Make a list of nouns <br/> <img src="attachments/924476033/932801979.png" width="300"/>|
-|Step 3. Filter the list of nouns by eliminating duplicates & irrelevant ones. <br/> <img src="attachments/924476033/932801980.png" width="300"/>|
-|Step 4. Box the nouns <br/> <img src="attachments/924476033/932801981.png" width="451"/>|
-|Step 5. Connect related boxes. <br/> <img src="attachments/924476033/932801982.png" width="451"/>|
-|Step 6. Scan user stories and use cases to identify verbs <br/> <img src="attachments/924476033/932801983.png" width="500"/>|
-|Step 7. Map verbs against corresponding box. <br/> <img src="attachments/924476033/932801984.png" width="550"/>|
-|Now you have an object model. <br/> <img src="attachments/924476033/932801986.png" width="450"/>|
+|**Illustration of how to make a Conceptual Object Model from _Use Case/User Stories_**|  
+|---------------------------------------------------------------------------------------|
+|**Step 1. Scan user stories and use cases to identify nouns** <br/><br/> <img src="attachments/924476033/932801977.png" width="500"/>|
+|**Step 2. Make a list of nouns** <br/><br/> <img src="attachments/924476033/932801979.png" width="275"/>|
+|**Step 3. Filter the list of nouns by eliminating duplicates & irrelevant ones** <br/><br/> <img src="attachments/924476033/932801980.png" width="275"/>|
+|**Step 4. Box the nouns** <br/><br/> <img src="attachments/924476033/932801981.png" width="451"/>|
+|**Step 5. Connect related boxes** <br/><br/> <img src="attachments/924476033/932801982.png" width="451"/>|
+|**Step 6. Scan user stories and use cases to identify verbs** <br/><br/> <img src="attachments/924476033/932801983.png" width="500"/>|
+|**Step 7. Make a list of verbs** <br/><br/> <img src="attachments/924476033/932801984.png" width="650"/>|
+|**Mark verbs against corresponding nouns. Then you have a _Conceptual Object Model_** <br/><br/> <img src="attachments/924476033/932801986.png" width="450"/>|
 
 # Object Oriented Design
 
