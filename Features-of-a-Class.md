@@ -1,3 +1,10 @@
+  * [Structure of a class](Features-of-a-Class.md#structure-of-a-class)
+   * [Fundamental features of a class](Features-of-a-Class.md#fundamental-features-of-a-class)
+      * [1. Abstraction](Features-of-a-Class.md#1-abstraction)
+      * [2. Encapsulation](Features-of-a-Class.md#2-encapsulation)
+      * [3. Inheritance](Features-of-a-Class.md#3-inheritance)
+      * [4. Polymorphism](Features-of-a-Class.md#4-polymorphism)
+      
 # Structure of a class
 
 A class has 3 things :
