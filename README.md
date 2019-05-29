@@ -12,60 +12,30 @@ the relevant details. It represents :
 - **Static** (_attributes and behaviors_)
 - **Constructor**
 
-|**Class Diagram with Visibility**  <br/><br/> <img src="attachments/924476033/932803673.jpg" width="411"/>|
+|**Class Diagram with Visibility**  <br/><br/> <img src="attachments/924476033/932803673.png" width="251"/>|
 |-----------------------------|
-|**Class Diagram with Static Members** <br/><br/>  <img src="attachments/924476033/932803674.jpg" width="411"/>|
+|**Class Diagram with Static Members** <br/><br/>  <img src="attachments/924476033/932803674.png" width="169"/>|
 
 
-### Inheritance
+## Inheritance
 
-Inheritance is easily identifiable by the **IS A** relationship. Once you have
-charted the conceptual model, it would
-speak for itself there appears "IS A" relationship between certain
-classes. They fall under the inheritance relationship. The inheritance
+Inheritance is easily identifiable through **IS A** relationship. Once you have
+charted the **Conceptual Object Model**, _"IS A"_ relationship between
+classes becomes evident. The inheritance
 relationship can be called by different terms : 
 
-parent class → child class
+- parent class → child class
+- base class   → derived class
+- super class  → sub class
+- abstract class → concrete class
 
-base class   → derived class
-
-super class  → sub class
-
-abstract class → concrete class
-
-  
-
--   The natural language has the best representation of "IS A"
-    relationship as seen below.
-
-  
-
- <img src="attachments/924476033/932803909.png" width="409"/><br/>
-
--   Inspect the classes identified during OOA phase to figure out the
-    inheritance relationship among them. Here, *Checking Account *is a
-    *Bank Account*.
-
-  
-<img src="attachments/924476033/932803911.png" width="250"/><br/>  
-  
-
--   *Savings Account *is a *Bank Account*  
-    *  
-    *
-
-<img src="attachments/924476033/932803912.png" width="250"/><br/>
-
--   Inheritance is represented using an arrow with wedge.  
-      
-
-<img src="attachments/924476033/932803913.png" width="250"/><br/>
-
--   You can write specific *attributes* and *behaviors *into the
-    *sub-classes* or *override* existing ones  
-      
-
-<img src="attachments/924476033/932803916.png" width="250"/><br/>
+|Illustration of Inheritance through **IS A** relationship|
+|----------------------------------------------------------|
+|The natural language has the best representation of "IS A" relationship as seen below. <br/> <img src="attachments/924476033/932803909.png" width="409"/>|
+|Inspect the classes identified during OOA phase to figure out the inheritance relationship among them. Here, _Checking Account_ **is a** _Bank Account_. <br/> <img src="attachments/924476033/932803911.png" width="550"/>|
+|_Savings Account_ **is a** _Bank Account_.  <br/> <img src="attachments/924476033/932803912.png" width="500"/>|
+|Inheritance is represented using an arrow with wedge. <br/> <img src="attachments/924476033/932803913.png" width="500"/>|
+|You can write specific *attributes* and *behaviors* into the *sub-classes* or *override* existing ones. <br/> <img src="attachments/924476033/932803916.png" width="550"/>|
 
 ### Abstract Class
 
